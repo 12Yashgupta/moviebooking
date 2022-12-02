@@ -12,6 +12,7 @@ void surathkal_details();
 void shimogg_details();
 int s=0,m=0,sh=0;
 int seat[20],n=0;
+char id1[20],password1[20];
 char id[20];
 char password[20];
 int fi11=0,fi12=0,fi13=0,movie=0;
@@ -82,11 +83,10 @@ void signup()
 int loginp()
 {
     x:
-    int temp1=0,temp2=0;
-    char id1[20],password1[20];
     printf("Enter The id :-");
     fflush(stdin);
     fgets(id1,20,stdin);
+	int temp1=0,temp2=0;
     if(strcmp(id,id1)==0)
     {
         temp1=1;
